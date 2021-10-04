@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
-const Post = mongoose.model(
-    'Post',
+const Beer = mongoose.model(
+    'Beer',
     {
         id: Number,
         title: String,
@@ -9,8 +9,10 @@ const Post = mongoose.model(
         origen: String,
         color: String,
         alcohol: String,
-        maridaje: String
+        tipe: String,
+        maridaje: String,
+        uri_img: String
     }
 );
 
-module.exports = Post;
+module.exports = Beer;

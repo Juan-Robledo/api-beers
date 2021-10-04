@@ -1,8 +1,8 @@
 const store = require("./store");
 
-function getPosts(){
+function listPost(){
     return new Promise((resolve, reject) => {
-        resolve(store.getPosts());
+        resolve(store.listPost());
     })
 }
 
@@ -40,7 +40,7 @@ function removePost(postID){
 }
 
 module.exports = {
-    getPosts,
+    listPost,
     getPost,
     addPost,
     editPost,

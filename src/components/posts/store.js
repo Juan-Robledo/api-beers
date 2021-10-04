@@ -12,7 +12,7 @@ const Model = require("./model");
 //     }
 // ];
 
-async function getPosts(){
+async function listPost(){
     try{
         const res = await Model.find({});
         return res;
@@ -68,7 +68,7 @@ async function removePost(postID){
 
 
 module.exports = {
-    getPosts,
+    listPost,
     getPost,
     addPost,
     editPost,
