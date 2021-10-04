@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "alias": "beers",
     "builds": [
         {
             "src": "src/index.js",
