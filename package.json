@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "api en node",
   "main": "src/index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon"
+    "start-dev": "nodemon",
+    "start": "node src/index.js"
   },
   "keywords": [
     "api"
